@@ -55,7 +55,7 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/
+git clone https://github.com
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
