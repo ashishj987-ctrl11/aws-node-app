@@ -1,10 +1,17 @@
+**Live AWS EC2 Deployment:** http://3.15.41.110:3000
+
 # Deploying a Node Js Application on AWS EC2
+### Tech Stack & Deployment
+- **Cloud & Server:** AWS EC2 (Ubuntu Linux, Security Groups configured for port 3000)
+- **Runtime:** Node.js & npm (managed as a background process via `nohup`)
+- **Configuration:** Environment variables isolated securely via `.env` and `.gitignore`
+
 
 ### Testing the project locally
 
 1. Clone this project
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
